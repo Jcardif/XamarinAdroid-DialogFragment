@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:minHeight="25dp"
+    android:minWidth="25dp">
+    <ListView
+        android:id="@+id/lview"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="25px"
+        android:minWidth="25px" />
+    <Button
+        android:id="@+id/Ok"
+        android:text="Ok"
+        android:layout_below="@+id/lview"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+</RelativeLayout>
